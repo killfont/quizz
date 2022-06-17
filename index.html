@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo.png">
+    <title>QuizzSkyrim</title>
+</head>
+<body>
+    <section id="quiz">
+        <button id="son" onclick="playSound()"><img src="assets/img/son-off.png" alt=""></button>
+        <p id="score"class=""></p>
+        <div class="center">
+        <p id="question" ></p>
+        </div>
+        <div id="fini">
+        <div>
+            <button onclick="checkedAnswer(this)" class="btn1 choice language"></button>
+            <button onclick="checkedAnswer(this)" class="btn2 choice language"></button>
+        </div>
+        <div>
+            <button onclick="checkedAnswer(this)" class="btn3 choice language"></button>
+            <button onclick="checkedAnswer(this)" class="btn4 choice language"></button>
+        </div>
+        <audio loop src="assets/audio/musiqueskyrim.mp3"></audio>
+        </div>
+        <div id="fin">
+        <span id="chrono"class="fin"></span>
+        </div>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

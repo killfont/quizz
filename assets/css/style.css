@@ -1,0 +1,108 @@
+@font-face {
+  font-family: skyrim;
+  src: url("../fonts/sky.ttf");
+}
+body{
+    background-color: rgb(93, 93, 93);
+    font-family: skyrim;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+#quiz{
+  color: rgb(255, 255, 255);
+    text-align: center;
+}
+.center{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 550px;
+  background-color: rgb(36, 36, 36);
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.choice{
+
+  background-size:200px 199px;
+  background-repeat: no-repeat;
+  font-family: skyrim;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;  
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+#question{
+    margin-top:50px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    
+}
+p{
+ text-align: center;  
+}
+section{
+  text-align: center;
+}
+#score{
+    color: rgb(238, 255, 0);
+}
+.language {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(255, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .language:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 0;
+    -webkit-transition-property: border-width;
+    transition-property: border-width;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  
+  .language:hover:before,
+  .language:focus:before,
+  .language:active:before {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    border-width: 4px;
+  }
+  #chrono{
+    color: white;
+    margin-top: 200px;
+    font-size: 100px;
+  }
+  button{
+    background-color:  rgb(50, 50, 50);
+    border: solid 1px white;
+
+  }
+  #son img{
+    height: 50px;
+    width: 50px;
+  }
+  #son{
+    background-color: rgb(156, 156, 156);
+    border: solid 1px black;
+  }
